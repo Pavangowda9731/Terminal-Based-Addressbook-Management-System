@@ -1,0 +1,43 @@
+Address Book Management System in C
+
+OVERVIEW:
+
+This is a simple console-based Address Book Management System written in C. 
+The program allows users to create, search, edit, delete, list, and save contacts in an address book stored in a text file (contacts.txt).
+It features input validation and a user-friendly menu-driven interface with colored terminal output for ease of use.
+
+FEATURES: 
+
+Create new contacts with name, phone number, and email address.
+
+Search contacts by name, phone number, or email.
+
+Edit existing contacts.
+
+Delete contacts with an option to undo the last deletion.
+
+List all contacts sorted alphabetically by name.
+
+Save contacts to a file, loaded upon program start.
+
+Validates inputs to ensure correctness (e.g., valid email format, phone number digit count).
+
+Supports up to 100 contacts.
+
+
+Files:
+
+main.c: Contains the main program loop presenting the interactive menu.
+
+contact.c: Implements the functionalities for managing contacts.
+
+contact.h: Header file defining the data structures and function prototypes.
+
+contacts.txt: Data file where contacts are saved and loaded from (created automatically after saving).
+
+Usage:
+
+Compile the code using a C compiler -->> gcc main.c contact.c -o addressbook
+
+Run the executable -->> ./addressbook
+
